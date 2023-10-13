@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SauceDemoWebsite">
+
+    <parameter name="browser" value=""/>
+
+    <test  name="Enter Standard Username And Valid Password">
+        <classes>
+            <class name="TestCases.LoginTest">
+                <methods>
+                    <include name="enterStandardUsernameAndValidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test  name="Enter Locked Out Username And Valid Password">
+        <classes>
+            <class name="TestCases.LoginTest">
+                <methods>
+                    <include name="enterLockedOutUsernameAndValidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test  name="Enter Problem Username And Valid Password">
+        <classes>
+            <class name="TestCases.LoginTest">
+                <methods>
+                    <include name="enterProblemUsernameAndValidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test  name="Enter Performance Glitch Username And Valid Password">
+        <classes>
+            <class name="TestCases.LoginTest">
+                <methods>
+                    <include name="enterPerformanceGlitchUsernameAndValidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test  name="leave Username And Password Fields Empty">
+        <classes>
+            <class name="TestCases.LoginTest">
+                <methods>
+                    <include name="leaveUsernameAndPasswordEmpty"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test  name="Enter Valid Username And Leave Password Field Empty">
+        <classes>
+            <class name="TestCases.LoginTest">
+                <methods>
+                    <include name="enterValidUsernameAndLeavePasswordEmpty"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test  name="Enter Invalid Username And Valid Password">
+        <classes>
+            <class name="TestCases.LoginTest">
+                <methods>
+                    <include name="enterInvalidUsernameAndValidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test  name="Enter Valid Username And Invalid Password">
+        <classes>
+            <class name="TestCases.LoginTest">
+                <methods>
+                    <include name="enterValidUsernameAndAndInvalidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test  name="Enter Invalid Username And Invalid Password">
+        <classes>
+            <class name="TestCases.LoginTest">
+                <methods>
+                    <include name="enterInvalidUsernameAndAndInvalidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test  name="Add Items To Cart And Checkout Successfully">
+        <classes>
+            <class name="TestCases.StandardUser_PurchaseTest">
+                <methods>
+                    <include name="addItemsToCartAndCheckoutSuccessfully"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Add Items To Cart And Logout And ReLogin Then Complete Purchase">
+        <parameter name="browser" value=""/>
+        <classes>
+            <class name="TestCases.StandardUser_PurchaseTest">
+                <methods>
+                    <include name="addItemsToCartAndLogoutAndReLoginCompletePurchase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Add And Remove Items From Inventory Page And Checkout Successfully">
+        <parameter name="browser" value=""/>
+        <classes>
+            <class name="TestCases.StandardUser_PurchaseTest">
+                <methods>
+                    <include name="addAndRemoveItemsFromInventoryPageAndCheckoutSuccessfully"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Add Items Then Remove Items From Cart Page And Checkout Successfully">
+        <parameter name="browser" value=""/>
+        <classes>
+            <class name="TestCases.StandardUser_PurchaseTest">
+                <methods>
+                    <include name="addItemsThenRemoveItemsFromCartPageAndCheckoutSuccessfully"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Click Continue Shopping On Cart Page And Add Items Then Complete Checkout">
+        <parameter name="browser" value=""/>
+        <classes>
+            <class name="TestCases.StandardUser_PurchaseTest">
+                <methods>
+                    <include name="clickContinueShoppingOnCartPageAndAddItemsThenCompleteCheckout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Cancel On Checkout-Step-One And Redirected To Cart Page">
+        <parameter name="browser" value=""/>
+        <classes>
+            <class name="TestCases.StandardUser_PurchaseTest">
+                <methods>
+                    <include name="cancelOnCheckoutStepOneAndRedirectedToCartPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Cancel On Checkout-Step-Two And Redirected To Cart Page">
+        <parameter name="browser" value=""/>
+        <classes>
+            <class name="TestCases.StandardUser_PurchaseTest">
+                <methods>
+                    <include name="cancelOnCheckoutStepTwoAndRedirectedToCartPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Logout On Inventory Page And Redirected To Login Page">
+        <parameter name="browser" value=""/>
+        <classes>
+
+            <class name="TestCases.StandardUser_PurchaseTest">
+
+                <methods>
+                    <include name="logoutOnInventoryPageAndRedirectedToLoginPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Logout On Cart Page And Redirected To Login Page">
+        <parameter name="browser" value=""/>
+        <classes>
+
+            <class name="TestCases.StandardUser_PurchaseTest">
+
+                <methods>
+                    <include name="logoutOnCartPageAndRedirectedToLoginPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Logout On Checkout-Step-One And Redirected To Login Page">
+        <parameter name="browser" value=""/>
+        <classes>
+
+            <class name="TestCases.StandardUser_PurchaseTest">
+
+                <methods>
+                    <include name="logoutOnCheckoutStepOneAndRedirectedToLoginPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Logout On Checkout-Step-Two And Redirected To Login Page">
+        <parameter name="browser" value=""/>
+        <classes>
+
+            <class name="TestCases.StandardUser_PurchaseTest">
+
+                <methods>
+                    <include name="logoutOnCheckoutStepTwoAndRedirectedToLoginPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Click On Back Home After Complete Checkout And Return To Login Page">
+        <parameter name="browser" value=""/>
+        <classes>
+
+            <class name="TestCases.StandardUser_PurchaseTest">
+
+                <methods>
+                    <include name="clickBackHomeAfterCompleteCheckoutAndReturnToLoginPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
