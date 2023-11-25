@@ -1,44 +1,38 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class CheckoutStep1Page {
-    @FindBy(id = "first-name")
-    private WebElement firstName;
-    @FindBy(id = "last-name")
-    private WebElement lastName;
-    @FindBy(id = "postal-code")
-    private WebElement zipCode;
-    @FindBy(id = "continue")
-    private WebElement ContinueBtn;
-    @FindBy(id = "cancel")
-    private WebElement cancelBtn;
-    private WebDriver driver;
+public class CheckoutStep1Page extends BasePage{
+    private By firstName = By.id("first-name");
+    private By lastName = By.id("last-name");
+    private By zipCode = By.id("postal-code");
+    private By ContinueBtn = By.id("continue");
+    private By cancelBtn = By.id("cancel");
+
     public CheckoutStep1Page(WebDriver driver) {
-        this.driver=driver;
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
     public boolean chkOpenCheckout1Page(){
         return driver.getCurrentUrl().equals("https://www.saucedemo.com/checkout-step-one.html");
     }
     public void enterFirstName(String fname){
-        firstName.sendKeys(fname);
+        findAnElement(firstName).sendKeys(fname);
     }
     public void enterLastName(String lname){
-        lastName.sendKeys(lname);
+        findAnElement(lastName).sendKeys(lname);
     }
     public void enterZipCode(String code){
-        zipCode.sendKeys(code);
+        findAnElement(zipCode).sendKeys(code);
     }
     public CheckoutStep2Page clickContinue () {
-        ContinueBtn.click();
+        clickOnElement(ContinueBtn);
         return new CheckoutStep2Page(driver);
     }
     public CartPage clickCancel () {
-        cancelBtn.click();
+        clickOnElement(cancelBtn);
         return new CartPage(driver);
     }
+
 }

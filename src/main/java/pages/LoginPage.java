@@ -1,40 +1,35 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
-    @FindBy(id = "user-name")
-    private WebElement userName;
-    @FindBy(id = "password")
-    private WebElement password;
-    @FindBy(id =  "login-button")
-    private WebElement loginButton;
-    @FindBy(css = "h3[data-test=\"error\"]")
-    private WebElement ErrorMsg;
-    private WebDriver driver;
+public class LoginPage extends BasePage{
+    private By userName= By.id("user-name");
+    private By password= By.id("password");
+    private By loginButton=By.id("login-button");
+    private By ErrorMsg=By.cssSelector("h3[data-test=\"error\"]");
+
     public LoginPage(WebDriver driver) {
-        this.driver=driver;
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
     public void enterUserName(String user){
-        userName.clear();
-        userName.sendKeys(user);
+        driver.findElement(userName).clear();
+        driver.findElement(userName).sendKeys(user);
     }
     public void enterPassword(String pass){
-        password.clear();
-        password.sendKeys(pass);
+        findAnElement(password).clear();
+        findAnElement(password).sendKeys(pass);
     }
+
     public InventoryPage Login(String user, String pass) {
         enterUserName(user);
         enterPassword(pass);
-        loginButton.click();
+        clickOnElement(loginButton);
         return new InventoryPage(driver);
     }
     public String chkError(){
-        return ErrorMsg.getText();
+        return getTextFromElement(findAnElement(ErrorMsg));
     }
     public boolean chkLogout(){
         return driver.getCurrentUrl().equals("https://www.saucedemo.com/");

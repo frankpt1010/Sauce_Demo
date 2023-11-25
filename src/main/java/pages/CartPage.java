@@ -1,36 +1,35 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import java.util.List;
-public class CartPage {
-    @FindBy(id = "checkout")
-    private WebElement checkoutBtn;
-    @FindBy(id = "continue-shopping")
-    private WebElement continueShoppingBtn;
-    @FindBy(css = "[id*=\"remove\"]")
-    private List<WebElement> removeFromCart;
-    private WebDriver driver;
+
+import java.util.concurrent.ThreadLocalRandom;
+
+public class CartPage extends BasePage{
+    private By removeFromCart = By.cssSelector("[id*=\"remove\"]");
+    private By checkoutBtn=By.id("checkout");
+    private By continueShoppingBtn = By.id("continue-shopping");
+
+
     public CartPage(WebDriver driver) {
-        this.driver=driver;
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
     public boolean chkOpenCartPage(){
         return driver.getCurrentUrl().equals("https://www.saucedemo.com/cart.html");
     }
     public void removeItemFromCart() {
-        if (removeFromCart.size()>0){
-            removeFromCart.get(0).click();
+        int numOfProductsToRemove=driver.findElements(removeFromCart).size();
+        if (numOfProductsToRemove>0){
+            driver.findElements(removeFromCart).get(0).click();
         }
     }
     public CheckoutStep1Page clickCheckout () {
-        checkoutBtn.click();
+        clickOnElement(checkoutBtn);
         return new CheckoutStep1Page(driver);
     }
     public InventoryPage clickContShopping () {
-        continueShoppingBtn.click();
+        clickOnElement(continueShoppingBtn);
         return new InventoryPage(driver);
     }
 }

@@ -22,12 +22,12 @@ public class BrowserFactory {
                 return new EdgeDriver();
             default:
                 ChromeOptions options = new ChromeOptions();
-
+                options.addArguments("--ignore-certificate-errors");
                 options.addArguments("start-maximized");
                 options.addArguments("--disable-web-security");
                 options.addArguments("--no-proxy-server");
                 options.addArguments("--remote-allow-origins=*");
-                //options.setHeadless(true);
+                options.setHeadless(true);
 
                 WebDriverManager.chromedriver().setup();
                 return new ChromeDriver(options);

@@ -3,7 +3,10 @@ package TestBase;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
+import pages.BasePage;
 import pages.LoginPage;
+
+import java.util.concurrent.TimeUnit;
 
 import static drivers.BrowserFactory.setBrowser;
 
@@ -15,7 +18,7 @@ public class TestBase {
     @BeforeMethod
     public void openBrowser()
     {
-        driver= setBrowser("chrome");
+        driver= setBrowser("default");
         driver.manage().window().maximize();
         driver.get(url);
         loginPage = new LoginPage(driver);
