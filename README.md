@@ -14,7 +14,6 @@ TestNG 6.14.3
 # Technologies:
 Maven
 Page Object Model (POM)
-Page Factory
 Running tests using testng.xml
 # Sauce Demo Website Link:
 https://www.saucedemo.com/
