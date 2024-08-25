@@ -29,7 +29,7 @@ public class BasePage {
     }
 
     public void waitForElement(WebElement element){
-        wait = new WebDriverWait(driver,3);
+        wait = new WebDriverWait(driver, Duration.ofSeconds(3));
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 }

@@ -15,7 +15,7 @@ public class StandardUser_PurchaseTest extends TestBase {
         InventoryPage inventoryPage = loginPage.Login("standard_user", "secret_sauce");
         Assert.assertTrue(inventoryPage.chkOpenInventoryPage());
         inventoryPage.addItemToCart();
-        WebDriverWait wait = new WebDriverWait(driver, 2);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
         wait.until(ExpectedConditions.textToBePresentInElement(inventoryPage.cartItemsBadgeCount(), "3"));
         CartPage cartPage = inventoryPage.clickCart();
         Assert.assertTrue(cartPage.chkOpenCartPage());
@@ -38,7 +38,7 @@ public class StandardUser_PurchaseTest extends TestBase {
         InventoryPage inventoryPage = loginPage.Login("standard_user", "secret_sauce");
         Assert.assertTrue(inventoryPage.chkOpenInventoryPage());
         inventoryPage.addItemToCart();
-        WebDriverWait wait = new WebDriverWait(driver, 2);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
         wait.until(ExpectedConditions.textToBePresentInElement(inventoryPage.cartItemsBadgeCount(), "3"));
         CartPage cartPage = inventoryPage.clickCart();
         Assert.assertTrue(cartPage.chkOpenCartPage());
@@ -65,7 +65,7 @@ public class StandardUser_PurchaseTest extends TestBase {
         InventoryPage inventoryPage = loginPage.Login("standard_user", "secret_sauce");
         Assert.assertTrue(inventoryPage.chkOpenInventoryPage());
         inventoryPage.addItemToCart();
-        WebDriverWait wait = new WebDriverWait(driver, 2);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
         wait.until(ExpectedConditions.textToBePresentInElement(inventoryPage.cartItemsBadgeCount(), "3"));
         inventoryPage.removeItemFromCart();
         wait.until(ExpectedConditions.textToBePresentInElement(inventoryPage.cartItemsBadgeCount(), "1"));
@@ -90,7 +90,7 @@ public class StandardUser_PurchaseTest extends TestBase {
         InventoryPage inventoryPage = loginPage.Login("standard_user", "secret_sauce");
         Assert.assertTrue(inventoryPage.chkOpenInventoryPage());
         inventoryPage.addItemToCart();
-        WebDriverWait wait = new WebDriverWait(driver, 2);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
         wait.until(ExpectedConditions.textToBePresentInElement(inventoryPage.cartItemsBadgeCount(), "3"));
         CartPage cartPage = inventoryPage.clickCart();
         Assert.assertTrue(cartPage.chkOpenCartPage());

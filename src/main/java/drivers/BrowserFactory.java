@@ -27,7 +27,7 @@ public class BrowserFactory {
                 options.addArguments("--disable-web-security");
                 options.addArguments("--no-proxy-server");
                 options.addArguments("--remote-allow-origins=*");
-                options.setHeadless(true);
+                options.addArguments("--headless=new");
 
                 WebDriverManager.chromedriver().setup();
                 return new ChromeDriver(options);

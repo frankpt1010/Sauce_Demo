@@ -35,8 +35,7 @@ public class TestBase {
 
         if(ITestResult.FAILURE == result.getStatus())
         {
-            var camera=(TakesScreenshot)driver;
-            File screenshot=camera.getScreenshotAs(OutputType.FILE);
+            File screenshot=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
             try{
                 Files.move(screenshot.toPath(), new File("Resources/screenshot/" + result.getName() + ".png").toPath());
             }catch(IOException e){
