@@ -3,11 +3,15 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.locators.RelativeLocator;
 
 public class LoginPage extends BasePage{
-    private By userName= By.id("user-name");
-    private By password= By.id("password");
-    private By loginButton=By.id("login-button");
+    //private By userName= By.id("user-name");
+	//private By password= By.id("password");
+    //private By loginButton=By.id("login-button");
+    private By userName = RelativeLocator.with(By.tagName("input")).above(By.id("password"));
+    private By password= RelativeLocator.with(By.tagName("input")).below(By.id("user-name"));
+    private By loginButton=RelativeLocator.with(By.tagName("input")).below(By.id("password"));
     private By ErrorMsg=By.cssSelector("h3[data-test=\"error\"]");
 
     public LoginPage(WebDriver driver) {

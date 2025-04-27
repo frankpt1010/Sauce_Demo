@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceDemoWebsite (0)]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value=""/>
+  <test thread-count="5" name="Add Items To Cart And Checkout Successfully(failed)">
+    <classes>
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <methods>
+          <include name="recordFailure"/>
+          <include name="openBrowser"/>
+          <include name="addItemsToCartAndCheckoutSuccessfully"/>
+        </methods>
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </classes>
+  </test> <!-- Add Items To Cart And Checkout Successfully(failed) -->
+  <test thread-count="5" name="Add Items To Cart And Logout And ReLogin Then Complete Purchase(failed)">
+    <parameter name="browser" value=""/>
+    <classes>
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <methods>
+          <include name="recordFailure"/>
+          <include name="openBrowser"/>
+          <include name="addItemsToCartAndLogoutAndReLoginCompletePurchase"/>
+        </methods>
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </classes>
+  </test> <!-- Add Items To Cart And Logout And ReLogin Then Complete Purchase(failed) -->
+  <test thread-count="5" name="Add And Remove Items From Inventory Page And Checkout Successfully(failed)">
+    <parameter name="browser" value=""/>
+    <classes>
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <methods>
+          <include name="recordFailure"/>
+          <include name="openBrowser"/>
+          <include name="addAndRemoveItemsFromInventoryPageAndCheckoutSuccessfully"/>
+        </methods>
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </classes>
+  </test> <!-- Add And Remove Items From Inventory Page And Checkout Successfully(failed) -->
+  <test thread-count="5" name="Add Items Then Remove Items From Cart Page And Checkout Successfully(failed)">
+    <parameter name="browser" value=""/>
+    <classes>
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <methods>
+          <include name="recordFailure"/>
+          <include name="addItemsThenRemoveItemsFromCartPageAndCheckoutSuccessfully"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </classes>
+  </test> <!-- Add Items Then Remove Items From Cart Page And Checkout Successfully(failed) -->
+  <test thread-count="5" name="Click Continue Shopping On Cart Page And Add Items Then Complete Checkout(failed)">
+    <parameter name="browser" value=""/>
+    <classes>
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <methods>
+          <include name="recordFailure"/>
+          <include name="openBrowser"/>
+          <include name="clickContinueShoppingOnCartPageAndAddItemsThenCompleteCheckout"/>
+        </methods>
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </classes>
+  </test> <!-- Click Continue Shopping On Cart Page And Add Items Then Complete Checkout(failed) -->
+  <test thread-count="5" name="Cancel On Checkout-Step-One And Redirected To Cart Page(failed)">
+    <parameter name="browser" value=""/>
+    <classes>
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <methods>
+          <include name="recordFailure"/>
+          <include name="openBrowser"/>
+          <include name="cancelOnCheckoutStepOneAndRedirectedToCartPage"/>
+        </methods>
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </classes>
+  </test> <!-- Cancel On Checkout-Step-One And Redirected To Cart Page(failed) -->
+  <test thread-count="5" name="Logout On Inventory Page And Redirected To Login Page(failed)">
+    <parameter name="browser" value=""/>
+    <classes>
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <methods>
+          <include name="recordFailure"/>
+          <include name="logoutOnInventoryPageAndRedirectedToLoginPage"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </classes>
+  </test> <!-- Logout On Inventory Page And Redirected To Login Page(failed) -->
+  <test thread-count="5" name="Logout On Cart Page And Redirected To Login Page(failed)">
+    <parameter name="browser" value=""/>
+    <classes>
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <methods>
+          <include name="recordFailure"/>
+          <include name="logoutOnCartPageAndRedirectedToLoginPage"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </classes>
+  </test> <!-- Logout On Cart Page And Redirected To Login Page(failed) -->
+  <test thread-count="5" name="Logout On Checkout-Step-One And Redirected To Login Page(failed)">
+    <parameter name="browser" value=""/>
+    <classes>
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <methods>
+          <include name="recordFailure"/>
+          <include name="openBrowser"/>
+          <include name="logoutOnCheckoutStepOneAndRedirectedToLoginPage"/>
+        </methods>
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </classes>
+  </test> <!-- Logout On Checkout-Step-One And Redirected To Login Page(failed) -->
+  <test thread-count="5" name="Logout On Checkout-Step-Two And Redirected To Login Page(failed)">
+    <parameter name="browser" value=""/>
+    <classes>
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <methods>
+          <include name="recordFailure"/>
+          <include name="openBrowser"/>
+          <include name="logoutOnCheckoutStepTwoAndRedirectedToLoginPage"/>
+        </methods>
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </classes>
+  </test> <!-- Logout On Checkout-Step-Two And Redirected To Login Page(failed) -->
+  <test thread-count="5" name="Click On Back Home After Complete Checkout And Return To Login Page(failed)">
+    <parameter name="browser" value=""/>
+    <classes>
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <methods>
+          <include name="recordFailure"/>
+          <include name="openBrowser"/>
+          <include name="clickBackHomeAfterCompleteCheckoutAndReturnToLoginPage"/>
+        </methods>
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </classes>
+  </test> <!-- Click On Back Home After Complete Checkout And Return To Login Page(failed) -->
+</suite> <!-- Failed suite [SauceDemoWebsite (0)] -->

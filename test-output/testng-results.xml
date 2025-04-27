@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-27T16:42:16 ART" name="SauceDemoWebsite" finished-at="2025-04-27T16:42:16 ART" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- SauceDemoWebsite -->
+  <suite started-at="2025-04-27T16:40:39 ART" name="SauceDemoWebsite (0)" finished-at="2025-04-27T16:42:15 ART" duration-ms="96301">
+    <groups>
+    </groups>
+    <test started-at="2025-04-27T16:40:39 ART" name="Enter Standard Username And Valid Password" finished-at="2025-04-27T16:40:44 ART" duration-ms="4933">
+      <class name="TestCases.LoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.LoginTest@2f4948e4]" started-at="2025-04-27T16:40:39 ART" name="openBrowser" finished-at="2025-04-27T16:40:42 ART" duration-ms="3014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="enterStandardUsernameAndValidPassword()[pri:0, instance:TestCases.LoginTest@2f4948e4]" started-at="2025-04-27T16:40:42 ART" name="enterStandardUsernameAndValidPassword" finished-at="2025-04-27T16:40:44 ART" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterStandardUsernameAndValidPassword -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.LoginTest@2f4948e4]" started-at="2025-04-27T16:40:44 ART" name="recordFailure" finished-at="2025-04-27T16:40:44 ART" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterStandardUsernameAndValidPassword status=SUCCESS method=LoginTest.enterStandardUsernameAndValidPassword()[pri:0, instance:TestCases.LoginTest@2f4948e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- Enter Standard Username And Valid Password -->
+    <test started-at="2025-04-27T16:40:44 ART" name="Enter Locked Out Username And Valid Password" finished-at="2025-04-27T16:40:46 ART" duration-ms="2516">
+      <class name="TestCases.LoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.LoginTest@7530ad9c]" started-at="2025-04-27T16:40:44 ART" name="openBrowser" finished-at="2025-04-27T16:40:46 ART" duration-ms="1690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="enterLockedOutUsernameAndValidPassword()[pri:0, instance:TestCases.LoginTest@7530ad9c]" started-at="2025-04-27T16:40:46 ART" name="enterLockedOutUsernameAndValidPassword" finished-at="2025-04-27T16:40:46 ART" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLockedOutUsernameAndValidPassword -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.LoginTest@7530ad9c]" started-at="2025-04-27T16:40:46 ART" name="recordFailure" finished-at="2025-04-27T16:40:46 ART" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterLockedOutUsernameAndValidPassword status=SUCCESS method=LoginTest.enterLockedOutUsernameAndValidPassword()[pri:0, instance:TestCases.LoginTest@7530ad9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- Enter Locked Out Username And Valid Password -->
+    <test started-at="2025-04-27T16:40:46 ART" name="Enter Problem Username And Valid Password" finished-at="2025-04-27T16:40:50 ART" duration-ms="3701">
+      <class name="TestCases.LoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.LoginTest@71e9ddb4]" started-at="2025-04-27T16:40:46 ART" name="openBrowser" finished-at="2025-04-27T16:40:47 ART" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="enterProblemUsernameAndValidPassword()[pri:0, instance:TestCases.LoginTest@71e9ddb4]" started-at="2025-04-27T16:40:47 ART" name="enterProblemUsernameAndValidPassword" finished-at="2025-04-27T16:40:50 ART" duration-ms="2097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterProblemUsernameAndValidPassword -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.LoginTest@71e9ddb4]" started-at="2025-04-27T16:40:50 ART" name="recordFailure" finished-at="2025-04-27T16:40:50 ART" duration-ms="624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterProblemUsernameAndValidPassword status=SUCCESS method=LoginTest.enterProblemUsernameAndValidPassword()[pri:0, instance:TestCases.LoginTest@71e9ddb4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- Enter Problem Username And Valid Password -->
+    <test started-at="2025-04-27T16:40:50 ART" name="Enter Performance Glitch Username And Valid Password" finished-at="2025-04-27T16:40:59 ART" duration-ms="8784">
+      <class name="TestCases.LoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.LoginTest@65d09a04]" started-at="2025-04-27T16:40:50 ART" name="openBrowser" finished-at="2025-04-27T16:40:52 ART" duration-ms="1875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="enterPerformanceGlitchUsernameAndValidPassword()[pri:0, instance:TestCases.LoginTest@65d09a04]" started-at="2025-04-27T16:40:52 ART" name="enterPerformanceGlitchUsernameAndValidPassword" finished-at="2025-04-27T16:40:58 ART" duration-ms="6216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPerformanceGlitchUsernameAndValidPassword -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.LoginTest@65d09a04]" started-at="2025-04-27T16:40:58 ART" name="recordFailure" finished-at="2025-04-27T16:40:59 ART" duration-ms="683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterPerformanceGlitchUsernameAndValidPassword status=SUCCESS method=LoginTest.enterPerformanceGlitchUsernameAndValidPassword()[pri:0, instance:TestCases.LoginTest@65d09a04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- Enter Performance Glitch Username And Valid Password -->
+    <test started-at="2025-04-27T16:40:59 ART" name="leave Username And Password Fields Empty" finished-at="2025-04-27T16:41:05 ART" duration-ms="6104">
+      <class name="TestCases.LoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.LoginTest@1190200a]" started-at="2025-04-27T16:40:59 ART" name="openBrowser" finished-at="2025-04-27T16:41:03 ART" duration-ms="4362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="leaveUsernameAndPasswordEmpty()[pri:0, instance:TestCases.LoginTest@1190200a]" started-at="2025-04-27T16:41:03 ART" name="leaveUsernameAndPasswordEmpty" finished-at="2025-04-27T16:41:05 ART" duration-ms="1396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveUsernameAndPasswordEmpty -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.LoginTest@1190200a]" started-at="2025-04-27T16:41:05 ART" name="recordFailure" finished-at="2025-04-27T16:41:05 ART" duration-ms="335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=leaveUsernameAndPasswordEmpty status=SUCCESS method=LoginTest.leaveUsernameAndPasswordEmpty()[pri:0, instance:TestCases.LoginTest@1190200a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- leave Username And Password Fields Empty -->
+    <test started-at="2025-04-27T16:41:05 ART" name="Enter Valid Username And Leave Password Field Empty" finished-at="2025-04-27T16:41:10 ART" duration-ms="4450">
+      <class name="TestCases.LoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.LoginTest@291caca8]" started-at="2025-04-27T16:41:05 ART" name="openBrowser" finished-at="2025-04-27T16:41:08 ART" duration-ms="2978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="enterValidUsernameAndLeavePasswordEmpty()[pri:0, instance:TestCases.LoginTest@291caca8]" started-at="2025-04-27T16:41:08 ART" name="enterValidUsernameAndLeavePasswordEmpty" finished-at="2025-04-27T16:41:09 ART" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterValidUsernameAndLeavePasswordEmpty -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.LoginTest@291caca8]" started-at="2025-04-27T16:41:09 ART" name="recordFailure" finished-at="2025-04-27T16:41:10 ART" duration-ms="300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterValidUsernameAndLeavePasswordEmpty status=SUCCESS method=LoginTest.enterValidUsernameAndLeavePasswordEmpty()[pri:0, instance:TestCases.LoginTest@291caca8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- Enter Valid Username And Leave Password Field Empty -->
+    <test started-at="2025-04-27T16:41:10 ART" name="Enter Invalid Username And Valid Password" finished-at="2025-04-27T16:41:10 ART" duration-ms="1">
+    </test> <!-- Enter Invalid Username And Valid Password -->
+    <test started-at="2025-04-27T16:41:10 ART" name="Enter Valid Username And Invalid Password" finished-at="2025-04-27T16:41:10 ART" duration-ms="1">
+    </test> <!-- Enter Valid Username And Invalid Password -->
+    <test started-at="2025-04-27T16:41:10 ART" name="Enter Invalid Username And Invalid Password" finished-at="2025-04-27T16:41:13 ART" duration-ms="3405">
+      <class name="TestCases.LoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.LoginTest@561b6512]" started-at="2025-04-27T16:41:10 ART" name="openBrowser" finished-at="2025-04-27T16:41:12 ART" duration-ms="2100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="enterInvalidUsernameAndAndInvalidPassword()[pri:0, instance:TestCases.LoginTest@561b6512]" started-at="2025-04-27T16:41:12 ART" name="enterInvalidUsernameAndAndInvalidPassword" finished-at="2025-04-27T16:41:13 ART" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInvalidUsernameAndAndInvalidPassword -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.LoginTest@561b6512]" started-at="2025-04-27T16:41:13 ART" name="recordFailure" finished-at="2025-04-27T16:41:13 ART" duration-ms="321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterInvalidUsernameAndAndInvalidPassword status=SUCCESS method=LoginTest.enterInvalidUsernameAndAndInvalidPassword()[pri:0, instance:TestCases.LoginTest@561b6512] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- Enter Invalid Username And Invalid Password -->
+    <test started-at="2025-04-27T16:41:13 ART" name="Add Items To Cart And Checkout Successfully" finished-at="2025-04-27T16:41:22 ART" duration-ms="8679">
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.StandardUser_PurchaseTest@37883b97]" started-at="2025-04-27T16:41:13 ART" name="openBrowser" finished-at="2025-04-27T16:41:16 ART" duration-ms="3440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="addItemsToCartAndCheckoutSuccessfully()[pri:0, instance:TestCases.StandardUser_PurchaseTest@37883b97]" started-at="2025-04-27T16:41:16 ART" name="addItemsToCartAndCheckoutSuccessfully" finished-at="2025-04-27T16:41:21 ART" duration-ms="4804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToCartAndCheckoutSuccessfully -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.StandardUser_PurchaseTest@37883b97]" started-at="2025-04-27T16:41:21 ART" name="recordFailure" finished-at="2025-04-27T16:41:22 ART" duration-ms="429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addItemsToCartAndCheckoutSuccessfully status=SUCCESS method=StandardUser_PurchaseTest.addItemsToCartAndCheckoutSuccessfully()[pri:0, instance:TestCases.StandardUser_PurchaseTest@37883b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </test> <!-- Add Items To Cart And Checkout Successfully -->
+    <test started-at="2025-04-27T16:41:22 ART" name="Add Items To Cart And Logout And ReLogin Then Complete Purchase" finished-at="2025-04-27T16:41:32 ART" duration-ms="10132">
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.StandardUser_PurchaseTest@1dac5ef]" started-at="2025-04-27T16:41:22 ART" name="openBrowser" finished-at="2025-04-27T16:41:25 ART" duration-ms="3249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="addItemsToCartAndLogoutAndReLoginCompletePurchase()[pri:0, instance:TestCases.StandardUser_PurchaseTest@1dac5ef]" started-at="2025-04-27T16:41:25 ART" name="addItemsToCartAndLogoutAndReLoginCompletePurchase" finished-at="2025-04-27T16:41:31 ART" duration-ms="5932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToCartAndLogoutAndReLoginCompletePurchase -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.StandardUser_PurchaseTest@1dac5ef]" started-at="2025-04-27T16:41:31 ART" name="recordFailure" finished-at="2025-04-27T16:41:32 ART" duration-ms="942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addItemsToCartAndLogoutAndReLoginCompletePurchase status=SUCCESS method=StandardUser_PurchaseTest.addItemsToCartAndLogoutAndReLoginCompletePurchase()[pri:0, instance:TestCases.StandardUser_PurchaseTest@1dac5ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </test> <!-- Add Items To Cart And Logout And ReLogin Then Complete Purchase -->
+    <test started-at="2025-04-27T16:41:32 ART" name="Add And Remove Items From Inventory Page And Checkout Successfully" finished-at="2025-04-27T16:41:37 ART" duration-ms="5124">
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.StandardUser_PurchaseTest@38e79ae3]" started-at="2025-04-27T16:41:32 ART" name="openBrowser" finished-at="2025-04-27T16:41:34 ART" duration-ms="2015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="addAndRemoveItemsFromInventoryPageAndCheckoutSuccessfully()[pri:0, instance:TestCases.StandardUser_PurchaseTest@38e79ae3]" started-at="2025-04-27T16:41:34 ART" name="addAndRemoveItemsFromInventoryPageAndCheckoutSuccessfully" finished-at="2025-04-27T16:41:37 ART" duration-ms="2859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndRemoveItemsFromInventoryPageAndCheckoutSuccessfully -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.StandardUser_PurchaseTest@38e79ae3]" started-at="2025-04-27T16:41:37 ART" name="recordFailure" finished-at="2025-04-27T16:41:37 ART" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAndRemoveItemsFromInventoryPageAndCheckoutSuccessfully status=SUCCESS method=StandardUser_PurchaseTest.addAndRemoveItemsFromInventoryPageAndCheckoutSuccessfully()[pri:0, instance:TestCases.StandardUser_PurchaseTest@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </test> <!-- Add And Remove Items From Inventory Page And Checkout Successfully -->
+    <test started-at="2025-04-27T16:41:37 ART" name="Add Items Then Remove Items From Cart Page And Checkout Successfully" finished-at="2025-04-27T16:41:41 ART" duration-ms="4440">
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.StandardUser_PurchaseTest@2d2ffcb7]" started-at="2025-04-27T16:41:37 ART" name="openBrowser" finished-at="2025-04-27T16:41:39 ART" duration-ms="1729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="addItemsThenRemoveItemsFromCartPageAndCheckoutSuccessfully()[pri:0, instance:TestCases.StandardUser_PurchaseTest@2d2ffcb7]" started-at="2025-04-27T16:41:39 ART" name="addItemsThenRemoveItemsFromCartPageAndCheckoutSuccessfully" finished-at="2025-04-27T16:41:41 ART" duration-ms="2458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsThenRemoveItemsFromCartPageAndCheckoutSuccessfully -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.StandardUser_PurchaseTest@2d2ffcb7]" started-at="2025-04-27T16:41:41 ART" name="recordFailure" finished-at="2025-04-27T16:41:41 ART" duration-ms="247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addItemsThenRemoveItemsFromCartPageAndCheckoutSuccessfully status=SUCCESS method=StandardUser_PurchaseTest.addItemsThenRemoveItemsFromCartPageAndCheckoutSuccessfully()[pri:0, instance:TestCases.StandardUser_PurchaseTest@2d2ffcb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </test> <!-- Add Items Then Remove Items From Cart Page And Checkout Successfully -->
+    <test started-at="2025-04-27T16:41:41 ART" name="Click Continue Shopping On Cart Page And Add Items Then Complete Checkout" finished-at="2025-04-27T16:41:48 ART" duration-ms="6885">
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.StandardUser_PurchaseTest@10d68fcd]" started-at="2025-04-27T16:41:41 ART" name="openBrowser" finished-at="2025-04-27T16:41:44 ART" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="clickContinueShoppingOnCartPageAndAddItemsThenCompleteCheckout()[pri:0, instance:TestCases.StandardUser_PurchaseTest@10d68fcd]" started-at="2025-04-27T16:41:44 ART" name="clickContinueShoppingOnCartPageAndAddItemsThenCompleteCheckout" finished-at="2025-04-27T16:41:48 ART" duration-ms="4090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContinueShoppingOnCartPageAndAddItemsThenCompleteCheckout -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.StandardUser_PurchaseTest@10d68fcd]" started-at="2025-04-27T16:41:48 ART" name="recordFailure" finished-at="2025-04-27T16:41:48 ART" duration-ms="560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickContinueShoppingOnCartPageAndAddItemsThenCompleteCheckout status=SUCCESS method=StandardUser_PurchaseTest.clickContinueShoppingOnCartPageAndAddItemsThenCompleteCheckout()[pri:0, instance:TestCases.StandardUser_PurchaseTest@10d68fcd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </test> <!-- Click Continue Shopping On Cart Page And Add Items Then Complete Checkout -->
+    <test started-at="2025-04-27T16:41:48 ART" name="Cancel On Checkout-Step-One And Redirected To Cart Page" finished-at="2025-04-27T16:41:53 ART" duration-ms="4355">
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.StandardUser_PurchaseTest@7b02881e]" started-at="2025-04-27T16:41:48 ART" name="openBrowser" finished-at="2025-04-27T16:41:51 ART" duration-ms="2431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="cancelOnCheckoutStepOneAndRedirectedToCartPage()[pri:0, instance:TestCases.StandardUser_PurchaseTest@7b02881e]" started-at="2025-04-27T16:41:51 ART" name="cancelOnCheckoutStepOneAndRedirectedToCartPage" finished-at="2025-04-27T16:41:53 ART" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelOnCheckoutStepOneAndRedirectedToCartPage -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.StandardUser_PurchaseTest@7b02881e]" started-at="2025-04-27T16:41:53 ART" name="recordFailure" finished-at="2025-04-27T16:41:53 ART" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cancelOnCheckoutStepOneAndRedirectedToCartPage status=SUCCESS method=StandardUser_PurchaseTest.cancelOnCheckoutStepOneAndRedirectedToCartPage()[pri:0, instance:TestCases.StandardUser_PurchaseTest@7b02881e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </test> <!-- Cancel On Checkout-Step-One And Redirected To Cart Page -->
+    <test started-at="2025-04-27T16:41:53 ART" name="Cancel On Checkout-Step-Two And Redirected To Cart Page" finished-at="2025-04-27T16:41:53 ART" duration-ms="0">
+    </test> <!-- Cancel On Checkout-Step-Two And Redirected To Cart Page -->
+    <test started-at="2025-04-27T16:41:53 ART" name="Logout On Inventory Page And Redirected To Login Page" finished-at="2025-04-27T16:41:56 ART" duration-ms="3404">
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.StandardUser_PurchaseTest@683dbc2c]" started-at="2025-04-27T16:41:53 ART" name="openBrowser" finished-at="2025-04-27T16:41:54 ART" duration-ms="1729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="logoutOnInventoryPageAndRedirectedToLoginPage()[pri:0, instance:TestCases.StandardUser_PurchaseTest@683dbc2c]" started-at="2025-04-27T16:41:54 ART" name="logoutOnInventoryPageAndRedirectedToLoginPage" finished-at="2025-04-27T16:41:56 ART" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOnInventoryPageAndRedirectedToLoginPage -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.StandardUser_PurchaseTest@683dbc2c]" started-at="2025-04-27T16:41:56 ART" name="recordFailure" finished-at="2025-04-27T16:41:56 ART" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutOnInventoryPageAndRedirectedToLoginPage status=SUCCESS method=StandardUser_PurchaseTest.logoutOnInventoryPageAndRedirectedToLoginPage()[pri:0, instance:TestCases.StandardUser_PurchaseTest@683dbc2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </test> <!-- Logout On Inventory Page And Redirected To Login Page -->
+    <test started-at="2025-04-27T16:41:56 ART" name="Logout On Cart Page And Redirected To Login Page" finished-at="2025-04-27T16:42:00 ART" duration-ms="3736">
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.StandardUser_PurchaseTest@6a2b953e]" started-at="2025-04-27T16:41:56 ART" name="openBrowser" finished-at="2025-04-27T16:41:57 ART" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="logoutOnCartPageAndRedirectedToLoginPage()[pri:0, instance:TestCases.StandardUser_PurchaseTest@6a2b953e]" started-at="2025-04-27T16:41:57 ART" name="logoutOnCartPageAndRedirectedToLoginPage" finished-at="2025-04-27T16:42:00 ART" duration-ms="2601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOnCartPageAndRedirectedToLoginPage -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.StandardUser_PurchaseTest@6a2b953e]" started-at="2025-04-27T16:42:00 ART" name="recordFailure" finished-at="2025-04-27T16:42:00 ART" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutOnCartPageAndRedirectedToLoginPage status=SUCCESS method=StandardUser_PurchaseTest.logoutOnCartPageAndRedirectedToLoginPage()[pri:0, instance:TestCases.StandardUser_PurchaseTest@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </test> <!-- Logout On Cart Page And Redirected To Login Page -->
+    <test started-at="2025-04-27T16:42:00 ART" name="Logout On Checkout-Step-One And Redirected To Login Page" finished-at="2025-04-27T16:42:04 ART" duration-ms="4350">
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.StandardUser_PurchaseTest@623a8092]" started-at="2025-04-27T16:42:00 ART" name="openBrowser" finished-at="2025-04-27T16:42:02 ART" duration-ms="1792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="logoutOnCheckoutStepOneAndRedirectedToLoginPage()[pri:0, instance:TestCases.StandardUser_PurchaseTest@623a8092]" started-at="2025-04-27T16:42:02 ART" name="logoutOnCheckoutStepOneAndRedirectedToLoginPage" finished-at="2025-04-27T16:42:04 ART" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOnCheckoutStepOneAndRedirectedToLoginPage -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.StandardUser_PurchaseTest@623a8092]" started-at="2025-04-27T16:42:04 ART" name="recordFailure" finished-at="2025-04-27T16:42:04 ART" duration-ms="322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutOnCheckoutStepOneAndRedirectedToLoginPage status=SUCCESS method=StandardUser_PurchaseTest.logoutOnCheckoutStepOneAndRedirectedToLoginPage()[pri:0, instance:TestCases.StandardUser_PurchaseTest@623a8092] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </test> <!-- Logout On Checkout-Step-One And Redirected To Login Page -->
+    <test started-at="2025-04-27T16:42:04 ART" name="Logout On Checkout-Step-Two And Redirected To Login Page" finished-at="2025-04-27T16:42:09 ART" duration-ms="4805">
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.StandardUser_PurchaseTest@610f7aa]" started-at="2025-04-27T16:42:04 ART" name="openBrowser" finished-at="2025-04-27T16:42:06 ART" duration-ms="1661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="logoutOnCheckoutStepTwoAndRedirectedToLoginPage()[pri:0, instance:TestCases.StandardUser_PurchaseTest@610f7aa]" started-at="2025-04-27T16:42:06 ART" name="logoutOnCheckoutStepTwoAndRedirectedToLoginPage" finished-at="2025-04-27T16:42:09 ART" duration-ms="2752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOnCheckoutStepTwoAndRedirectedToLoginPage -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.StandardUser_PurchaseTest@610f7aa]" started-at="2025-04-27T16:42:09 ART" name="recordFailure" finished-at="2025-04-27T16:42:09 ART" duration-ms="391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutOnCheckoutStepTwoAndRedirectedToLoginPage status=SUCCESS method=StandardUser_PurchaseTest.logoutOnCheckoutStepTwoAndRedirectedToLoginPage()[pri:0, instance:TestCases.StandardUser_PurchaseTest@610f7aa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </test> <!-- Logout On Checkout-Step-Two And Redirected To Login Page -->
+    <test started-at="2025-04-27T16:42:09 ART" name="Click On Back Home After Complete Checkout And Return To Login Page" finished-at="2025-04-27T16:42:15 ART" duration-ms="6241">
+      <class name="TestCases.StandardUser_PurchaseTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCases.StandardUser_PurchaseTest@5609159b]" started-at="2025-04-27T16:42:09 ART" name="openBrowser" finished-at="2025-04-27T16:42:11 ART" duration-ms="1768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="clickBackHomeAfterCompleteCheckoutAndReturnToLoginPage()[pri:0, instance:TestCases.StandardUser_PurchaseTest@5609159b]" started-at="2025-04-27T16:42:11 ART" name="clickBackHomeAfterCompleteCheckoutAndReturnToLoginPage" finished-at="2025-04-27T16:42:15 ART" duration-ms="3817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBackHomeAfterCompleteCheckoutAndReturnToLoginPage -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:TestCases.StandardUser_PurchaseTest@5609159b]" started-at="2025-04-27T16:42:15 ART" name="recordFailure" finished-at="2025-04-27T16:42:15 ART" duration-ms="656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickBackHomeAfterCompleteCheckoutAndReturnToLoginPage status=SUCCESS method=StandardUser_PurchaseTest.clickBackHomeAfterCompleteCheckoutAndReturnToLoginPage()[pri:0, instance:TestCases.StandardUser_PurchaseTest@5609159b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- TestCases.StandardUser_PurchaseTest -->
+    </test> <!-- Click On Back Home After Complete Checkout And Return To Login Page -->
+  </suite> <!-- SauceDemoWebsite (0) -->
+</testng-results>
